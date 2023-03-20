@@ -1,0 +1,82 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: Artin;
+}
+.head{
+    display: flex;
+}
+.Nav ul{
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    right: 3%;
+    top: 1vh;
+}
+
+.Nav ul li{
+    list-style: none;
+    gap: 2rem;
+    transition: .3s;
+}
+
+.Nav ul li :hover{
+    color: rgb(230, 130, 150);
+    transition: .3s;
+}
+
+.Nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.search input{
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(244, 244, 239, 0.79);
+    box-shadow: 4px 4px #6b6b6b30;
+}
+
+.logo{
+    color: rgb(221, 75, 75);
+    position: absolute;
+    left: 4%;
+}
+
+.cart{
+    font-size: 1.6rem;
+    color: black;
+    position: absolute;
+    top: 3%;
+}
+
+.cart:hover{
+    color: rgb(81, 184, 98);
+}
+
+.favorit{
+    font-size: 1.5rem;
+    color: black;
+    position: absolute;
+    top: 3%;
+}
+
+.favorit:hover{
+    color: rgb(208, 64, 64);
+}
+
+.mobail-nav{
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    .Nav ul li{
+        display: none;
+    }
+    .search input{
+        margin-right: 8vh;
+    }
+    .mobail-nav{
+        display: flex;
+    }
+}

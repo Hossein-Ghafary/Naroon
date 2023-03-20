@@ -1,0 +1,39 @@
+.slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0vh;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.right-arrow{
+    background-color: rgba(240, 248, 255, 0.849);
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 2rem;
+    color: black;
+    z-index: 2;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow{
+    background-color: rgba(240, 248, 255, 0.749);
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 2rem;
+    color: black;
+    z-index: 2;
+    cursor: pointer;
+    user-select: none;
+}

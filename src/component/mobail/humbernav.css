@@ -1,0 +1,24 @@
+
+.mob-nav{
+    z-index: 10;
+}
+
+.mob-nav ul{
+    background-color: rgba(217, 30, 30, 0.815);
+    width: 170%;
+    padding: 1vh;
+    padding-top: 0;
+    border-radius: 13px;
+    z-index: 10;
+}
+
+.mob-nav ul li{
+    list-style: none;
+    margin-top: 3VH;
+}
+
+.mob-nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 4vh;
+}

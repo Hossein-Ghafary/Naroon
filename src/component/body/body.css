@@ -1,0 +1,50 @@
+.body-all{
+    background-color: rgba(95, 95, 95, 0.67);
+    padding: 3vh;
+}
+
+.body-title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.body-title span{
+    color: rgb(250, 113, 113);
+}
+
+.body-p{
+    text-align: center;
+    color: aliceblue;
+}
+
+.lebas{
+    margin-right: 6px;
+    color: aliceblue;
+}
+
+.off-home{
+    color: white;
+    text-align: center;
+}
+
+.make1{
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    right: 1%;
+}
+
+.clothe1{
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    position: absolute;
+    left: 3%;
+}
+
+.off-home-all h3{
+    position: absolute;
+    top: 225vh;
+    right: 19vh;
+}
